@@ -60,7 +60,10 @@ var showBlogs = document.getElementById('showBlogs');
             displayBlog();
         }
 
-
+        let btnAM = document.getElementById("btnAM");
+        btnAM.onclick = function(){ 
+            window.location.href="appoint_admin.html";
+        }
         /////////////////////////////
 
 // var showStudents = document.getElementById('showBlogs');
